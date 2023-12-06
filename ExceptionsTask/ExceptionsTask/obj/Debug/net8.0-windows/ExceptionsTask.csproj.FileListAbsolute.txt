@@ -1,0 +1,16 @@
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\bin\Debug\net8.0-windows\ExceptionsTask.exe
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\bin\Debug\net8.0-windows\ExceptionsTask.deps.json
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\bin\Debug\net8.0-windows\ExceptionsTask.runtimeconfig.json
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\bin\Debug\net8.0-windows\ExceptionsTask.dll
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\bin\Debug\net8.0-windows\ExceptionsTask.pdb
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ExceptionsTask.Form1.resources
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ExceptionsTask.csproj.GenerateResource.cache
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ExceptionsTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ExceptionsTask.AssemblyInfoInputs.cache
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ExceptionsTask.AssemblyInfo.cs
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ExceptionsTask.csproj.CoreCompileInputs.cache
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ExceptionsTask.dll
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\refint\ExceptionsTask.dll
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ExceptionsTask.pdb
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ExceptionsTask.genruntimeconfig.cache
+C:\Users\ginaf\source\repos\ExceptionsTask\ExceptionsTask\obj\Debug\net8.0-windows\ref\ExceptionsTask.dll
