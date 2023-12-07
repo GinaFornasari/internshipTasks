@@ -1,0 +1,14 @@
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\obj\Debug\net8.0\TimerConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\obj\Debug\net8.0\TimerConsole.AssemblyInfoInputs.cache
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\obj\Debug\net8.0\TimerConsole.AssemblyInfo.cs
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\obj\Debug\net8.0\TimerConsole.csproj.CoreCompileInputs.cache
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\bin\Debug\net8.0\TimerConsole.exe
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\bin\Debug\net8.0\TimerConsole.deps.json
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\bin\Debug\net8.0\TimerConsole.runtimeconfig.json
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\bin\Debug\net8.0\TimerConsole.dll
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\bin\Debug\net8.0\TimerConsole.pdb
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\obj\Debug\net8.0\TimerConsole.dll
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\obj\Debug\net8.0\refint\TimerConsole.dll
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\obj\Debug\net8.0\TimerConsole.pdb
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\obj\Debug\net8.0\TimerConsole.genruntimeconfig.cache
+C:\Users\ginaf\source\repos\TimerConsole\TimerConsole\obj\Debug\net8.0\ref\TimerConsole.dll

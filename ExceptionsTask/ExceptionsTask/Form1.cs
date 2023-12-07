@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Xml.Serialization;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
+//internship task
 namespace ExceptionsTask
 {
     public partial class Form1 : Form
@@ -195,9 +196,6 @@ namespace ExceptionsTask
                 MessageBox.Show("caught");
             }
         }
-
-
-
 
 
         void doesNothing()
