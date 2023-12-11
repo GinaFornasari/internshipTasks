@@ -146,6 +146,7 @@
             // 
             // textBoxCounter
             // 
+            textBoxCounter.AcceptsReturn = true;
             textBoxCounter.Location = new Point(92, 279);
             textBoxCounter.Multiline = true;
             textBoxCounter.Name = "textBoxCounter";

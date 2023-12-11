@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CustomTimer": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
