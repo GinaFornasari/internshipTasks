@@ -1,0 +1,14 @@
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\obj\Debug\net8.0\FamilyTree2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\obj\Debug\net8.0\FamilyTree2.AssemblyInfoInputs.cache
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\obj\Debug\net8.0\FamilyTree2.AssemblyInfo.cs
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\obj\Debug\net8.0\FamilyTree2.csproj.CoreCompileInputs.cache
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\bin\Debug\net8.0\FamilyTree2.exe
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\bin\Debug\net8.0\FamilyTree2.deps.json
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\bin\Debug\net8.0\FamilyTree2.runtimeconfig.json
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\bin\Debug\net8.0\FamilyTree2.dll
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\bin\Debug\net8.0\FamilyTree2.pdb
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\obj\Debug\net8.0\FamilyTree2.dll
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\obj\Debug\net8.0\refint\FamilyTree2.dll
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\obj\Debug\net8.0\FamilyTree2.pdb
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\obj\Debug\net8.0\FamilyTree2.genruntimeconfig.cache
+C:\Users\ginaf\source\repos\FamilyTree2\FamilyTree2\obj\Debug\net8.0\ref\FamilyTree2.dll
