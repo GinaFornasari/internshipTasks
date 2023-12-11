@@ -37,6 +37,12 @@
             labelTotal = new Label();
             labelOffset = new Label();
             btnStart = new Button();
+            HoursLabel = new Label();
+            MinutesLabel = new Label();
+            SecondsLabel = new Label();
+            textBoxCounter = new TextBox();
+            btnPause = new Button();
+            btnStop = new Button();
             SuspendLayout();
             // 
             // textBoxHrT
@@ -101,7 +107,7 @@
             // 
             // btnStart
             // 
-            btnStart.Location = new Point(348, 206);
+            btnStart.Location = new Point(348, 187);
             btnStart.Name = "btnStart";
             btnStart.Size = new Size(112, 34);
             btnStart.TabIndex = 8;
@@ -109,11 +115,73 @@
             btnStart.UseVisualStyleBackColor = true;
             btnStart.Click += btnStart_Click_1;
             // 
+            // HoursLabel
+            // 
+            HoursLabel.AutoSize = true;
+            HoursLabel.Location = new Point(155, 12);
+            HoursLabel.Name = "HoursLabel";
+            HoursLabel.Size = new Size(60, 25);
+            HoursLabel.TabIndex = 9;
+            HoursLabel.Text = "Hours";
+            HoursLabel.Click += label1_Click;
+            // 
+            // MinutesLabel
+            // 
+            MinutesLabel.AutoSize = true;
+            MinutesLabel.Location = new Point(385, 12);
+            MinutesLabel.Name = "MinutesLabel";
+            MinutesLabel.Size = new Size(75, 25);
+            MinutesLabel.TabIndex = 10;
+            MinutesLabel.Text = "Minutes";
+            // 
+            // SecondsLabel
+            // 
+            SecondsLabel.AutoSize = true;
+            SecondsLabel.Location = new Point(620, 15);
+            SecondsLabel.Name = "SecondsLabel";
+            SecondsLabel.Size = new Size(79, 25);
+            SecondsLabel.TabIndex = 11;
+            SecondsLabel.Text = "Seconds";
+            SecondsLabel.Click += label3_Click;
+            // 
+            // textBoxCounter
+            // 
+            textBoxCounter.Location = new Point(92, 279);
+            textBoxCounter.Multiline = true;
+            textBoxCounter.Name = "textBoxCounter";
+            textBoxCounter.Size = new Size(301, 103);
+            textBoxCounter.TabIndex = 12;
+            textBoxCounter.TextChanged += textBoxCounter_TextChanged;
+            // 
+            // btnPause
+            // 
+            btnPause.Location = new Point(516, 268);
+            btnPause.Name = "btnPause";
+            btnPause.Size = new Size(112, 34);
+            btnPause.TabIndex = 13;
+            btnPause.Text = "Pause";
+            btnPause.UseVisualStyleBackColor = true;
+            // 
+            // btnStop
+            // 
+            btnStop.Location = new Point(516, 337);
+            btnStop.Name = "btnStop";
+            btnStop.Size = new Size(112, 34);
+            btnStop.TabIndex = 14;
+            btnStop.Text = "Stop";
+            btnStop.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnStop);
+            Controls.Add(btnPause);
+            Controls.Add(textBoxCounter);
+            Controls.Add(SecondsLabel);
+            Controls.Add(MinutesLabel);
+            Controls.Add(HoursLabel);
             Controls.Add(btnStart);
             Controls.Add(labelOffset);
             Controls.Add(labelTotal);
@@ -140,5 +208,11 @@
         private Label labelTotal;
         private Label labelOffset;
         private Button btnStart;
+        private Label HoursLabel;
+        private Label MinutesLabel;
+        private Label SecondsLabel;
+        private TextBox textBoxCounter;
+        private Button btnPause;
+        private Button btnStop;
     }
 }

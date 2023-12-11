@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ginaf\\source\\repos\\CustomTimer\\CustomTimer\\CustomTimer.csproj",
+      "projectUniqueName": "C:\\Users\\ginaf\\Source\\Repos\\GinaFornasari\\internshipTasks\\CustomTimer\\CustomTimer\\CustomTimer.csproj",
       "projectName": "CustomTimer",
-      "projectPath": "C:\\Users\\ginaf\\source\\repos\\CustomTimer\\CustomTimer\\CustomTimer.csproj",
+      "projectPath": "C:\\Users\\ginaf\\Source\\Repos\\GinaFornasari\\internshipTasks\\CustomTimer\\CustomTimer\\CustomTimer.csproj",
       "packagesPath": "C:\\Users\\ginaf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ginaf\\source\\repos\\CustomTimer\\CustomTimer\\obj\\",
+      "outputPath": "C:\\Users\\ginaf\\Source\\Repos\\GinaFornasari\\internshipTasks\\CustomTimer\\CustomTimer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

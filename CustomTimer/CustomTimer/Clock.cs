@@ -1,18 +1,14 @@
-﻿using Microsoft.Win32;
+﻿using CustomTimer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace CustomTimer
 {
     public class Clock
     {
-        public int total;
-        public int offset;
-
         private int hour;
         private int minute;
         private int second;
@@ -20,14 +16,8 @@ namespace CustomTimer
         public delegate void TimeChangedHandler(object clock, TimeEventArgs timeinfo);
         public TimeChangedHandler TimeChanged;
 
-        public Clock(int total, int offset)
-        { 
-            this.total = total;
-            this.offset = offset;
-            this.minute = DateTime.Now.Minute;
-            this.second = DateTime.Now.Second;
-            this.hour = DateTime.Now.Hour;
-           
+        public Clock()
+        {
         }
 
         public void RunClock()
@@ -35,29 +25,31 @@ namespace CustomTimer
             while (true)
             {
                 Thread.Sleep(100);
-                DateTime currTime = DateTime.Now;
-                if((currTime.Second - this.second)==offset)
+                DateTime curr = DateTime.Now;
+
+                if (curr.Second != this.second)
                 {
-                    //update timer, update stored time
+
                     TimeEventArgs eventArgs = new TimeEventArgs()
                     {
-                        hour = currTime.Hour,
-                        minute = currTime.Minute,
-                        second = currTime.Second
+                        hour = curr.Hour,
+                        minute = curr.Minute,
+                        second = curr.Second
                     };
 
                     if (TimeChanged != null)
                     {
                         TimeChanged(this, eventArgs);
                     }
-                    this.minute = currTime.Minute;
-                    this.second = currTime.Second;
-                    this.hour = currTime.Hour;
-                }
 
+                    this.minute = curr.Minute;
+                    this.second = curr.Second;
+                    this.hour = curr.Hour;
+                }
 
             }
         }
-    }
 
+    }
 }
+
