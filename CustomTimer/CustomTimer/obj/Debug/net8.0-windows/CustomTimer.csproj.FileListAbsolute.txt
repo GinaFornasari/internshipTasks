@@ -1,0 +1,16 @@
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\bin\Debug\net8.0-windows\CustomTimer.exe
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\bin\Debug\net8.0-windows\CustomTimer.deps.json
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\bin\Debug\net8.0-windows\CustomTimer.runtimeconfig.json
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\bin\Debug\net8.0-windows\CustomTimer.dll
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\bin\Debug\net8.0-windows\CustomTimer.pdb
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\CustomTimer.Form1.resources
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\CustomTimer.csproj.GenerateResource.cache
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\CustomTimer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\CustomTimer.AssemblyInfoInputs.cache
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\CustomTimer.AssemblyInfo.cs
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\CustomTimer.csproj.CoreCompileInputs.cache
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\CustomTimer.dll
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\refint\CustomTimer.dll
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\CustomTimer.pdb
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\CustomTimer.genruntimeconfig.cache
+C:\Users\ginaf\source\repos\CustomTimer\CustomTimer\obj\Debug\net8.0-windows\ref\CustomTimer.dll
