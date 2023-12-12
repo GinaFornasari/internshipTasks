@@ -15,7 +15,7 @@ namespace CustomTimer
         public int now;
         public int leftOver;
         // public Form1 form = new Form1();
-        public delegate void UpdateView( string timeinfo);
+        public delegate void UpdateView(object s, StringEventArgs timeinfo);
         public UpdateView TimeChange;
 
         //public Timer() : this(0, 0, 0) { }
@@ -24,10 +24,16 @@ namespace CustomTimer
         {
             this.total = total;
             this.offset = offset;
-           
+            string tot = "" + total;
+
+            StringEventArgs strEventArgs = new StringEventArgs()
+            {
+                updatedTimeLeft = tot
+            };
+
             if (TimeChange != null)
             {
-                TimeChange("LOL");
+                TimeChange(this, strEventArgs);
             }
             
             this.now = now;
@@ -46,10 +52,19 @@ namespace CustomTimer
                     //Console.WriteLine(total - offset);
            
                     total -= offset;
+                    string tot = "" + total;
+
+                    StringEventArgs strEventArgs = new StringEventArgs()
+                    {
+                        updatedTimeLeft = tot
+                    };
+
                     if (TimeChange != null)
                     {
-                        TimeChange("LOL2");
+                        TimeChange(this, strEventArgs);
                     }
+
+                   
                     now = e.second;
                 }
 
@@ -57,10 +72,18 @@ namespace CustomTimer
                 {
                     //Console.WriteLine(--total);
                     total--;
+                    string tot = "" + total;
+
+                    StringEventArgs strEventArgs = new StringEventArgs()
+                    {
+                        updatedTimeLeft = tot
+                    };
+
                     if (TimeChange != null)
                     {
-                        TimeChange("LOL3");
+                        TimeChange(this, strEventArgs);
                     }
+
                     now = e.second;
                 }
 

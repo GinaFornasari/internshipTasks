@@ -12,7 +12,8 @@ namespace CustomTimer
     {
         public int totalTime { get; set; }
         public int offsetTime { get; set; }
-        
+        Clock clock = new Clock();
+
 
         public Form1()
         {
@@ -20,23 +21,33 @@ namespace CustomTimer
         }
          
 
-        private void btnStart_Click_1(object sender, EventArgs e)
+        private async void btnStart_Click_1(object sender, EventArgs e)
         {
-            textBoxCounter.Text = "Starting";
+            //textBoxCounter.Text = "Starting";
             string totalT = textBoxSecT.Text;
+            textBoxCounter.Text = totalT;
             this.totalTime = int.Parse(textBoxSecT.Text);
             this.offsetTime = int.Parse(textBoxSecTO.Text);
-            Clock clock = new Clock();
+           // Clock clock = new Clock();
             Timer timer = new Timer(totalTime, offsetTime, DateTime.Now.Second);
             timer.subscribe(clock);
-            clock.RunClock();
+
+             Task myTask = Task.Run(() => clock.RunClock());
+           // await Task.Run(() => clock.RunClock());
+
 
             // theClock.TimeChanged += delegate (object sender, TimeEventArgs e);
             //timer.TimeChange += delegate (string str) { };
-            timer.TimeChange += updateTextBox;
 
+            //timer.TimeChange += updateTextBox;
 
-        }
+            timer.TimeChange +=
+            (sent, s) =>
+                {
+                    textBoxCounter.Text = s.updatedTimeLeft;
+                }; 
+
+            }
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -53,9 +64,9 @@ namespace CustomTimer
 
         }
 
-        public void updateTextBox(string text)
+        public void updateTextBox(object sender, EventArgs e)
         {
-            textBoxCounter.Text = text;
+            //textBoxCounter.Text = text;
         }
     }
 
