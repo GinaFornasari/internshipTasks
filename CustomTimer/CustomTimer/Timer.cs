@@ -1,7 +1,9 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using System.Linq;
+using System.Numerics;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,25 +12,23 @@ namespace CustomTimer
 {
     public class Timer
     {
-        private int total;
+        public int total;
         private int offset;
-        public int now;
+        public DateTime now;
         public int leftOver;
-        // public Form1 form = new Form1();
+        public string timeMeasure; 
         public delegate void UpdateView(object s, StringEventArgs timeinfo);
         public UpdateView TimeChange;
 
         //public Timer() : this(0, 0, 0) { }
 
-        public Timer(int total, int offset, int now)
+        public Timer(int total, int offset, DateTime now)
         {
             this.total = total;
             this.offset = offset;
-            string tot = "" + total;
-
             StringEventArgs strEventArgs = new StringEventArgs()
             {
-                updatedTimeLeft = tot
+                updatedTimeLeft = format(total)
             };
 
             if (TimeChange != null)
@@ -47,16 +47,13 @@ namespace CustomTimer
             theClock.TimeChanged +=
             (sender, e) =>
             {
-                if (total > leftOver && e.second - now == offset)
+               
+                if (total > leftOver && ((e.second - now.Second)+ (e.minute - now.Minute)*60+(e.hour - now.Hour)*3600) == offset)
                 {
-                    //Console.WriteLine(total - offset);
-           
                     total -= offset;
-                    string tot = "" + total;
-
                     StringEventArgs strEventArgs = new StringEventArgs()
                     {
-                        updatedTimeLeft = tot
+                        updatedTimeLeft = format(total)
                     };
 
                     if (TimeChange != null)
@@ -65,18 +62,16 @@ namespace CustomTimer
                     }
 
                    
-                    now = e.second;
+                    now = DateTime.Now;
                 }
 
-                if (total <= leftOver && total > 0 && e.second != now)
+                if (total <= leftOver && total > 0 && DateTime.Now != now)
                 {
-                    //Console.WriteLine(--total);
                     total--;
-                    string tot = "" + total;
 
                     StringEventArgs strEventArgs = new StringEventArgs()
                     {
-                        updatedTimeLeft = tot
+                        updatedTimeLeft = format(total)
                     };
 
                     if (TimeChange != null)
@@ -84,8 +79,9 @@ namespace CustomTimer
                         TimeChange(this, strEventArgs);
                     }
 
-                    now = e.second;
+                    now = DateTime.Now;
                 }
+                
 
 
                 if (total == 0)
@@ -96,6 +92,31 @@ namespace CustomTimer
 
             };
 
+        }
+
+        public string format(int num)
+        {
+            int hrz = num / 3600;
+            num = (num%3600);
+            int minz = (num / 60);
+            num = (num % 60);
+            return (hrz + " hours," +Environment.NewLine + minz + " minutes," + Environment.NewLine + num + " seconds" +Environment.NewLine+"remaining");
+        }
+        public int getUnformatted()
+        {
+            return total;
+            
+        }
+        public void Paused()
+        {
+            this.total = 0;
+        }
+        public void Resumed(Clock theClock, int total, DateTime now)
+        {
+            this.total = total;
+            this.now = now;
+
+            subscribe(theClock);
         }
 
     }

@@ -11,5 +11,6 @@ namespace CustomTimer
         public int hour { get; set; }
         public int minute { get; set; }
         public int second { get; set; }
+       
     }
 }

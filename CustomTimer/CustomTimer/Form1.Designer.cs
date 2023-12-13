@@ -43,49 +43,64 @@
             textBoxCounter = new TextBox();
             btnPause = new Button();
             btnStop = new Button();
+            btnRestart = new Button();
             SuspendLayout();
             // 
             // textBoxHrT
             // 
-            textBoxHrT.Location = new Point(114, 43);
+            textBoxHrT.AcceptsReturn = true;
+            textBoxHrT.AcceptsTab = true;
+            textBoxHrT.Location = new Point(114, 46);
             textBoxHrT.Name = "textBoxHrT";
+            textBoxHrT.PlaceholderText = "0";
             textBoxHrT.Size = new Size(150, 31);
             textBoxHrT.TabIndex = 0;
+            textBoxHrT.Text = "0";
             // 
             // textBoxMinT
             // 
             textBoxMinT.Location = new Point(348, 43);
             textBoxMinT.Name = "textBoxMinT";
+            textBoxMinT.PlaceholderText = "0";
             textBoxMinT.Size = new Size(150, 31);
             textBoxMinT.TabIndex = 1;
+            textBoxMinT.Text = "0";
             // 
             // textBoxSecT
             // 
             textBoxSecT.Location = new Point(585, 43);
             textBoxSecT.Name = "textBoxSecT";
+            textBoxSecT.PlaceholderText = "0";
             textBoxSecT.Size = new Size(150, 31);
             textBoxSecT.TabIndex = 2;
+            textBoxSecT.Text = "0";
             // 
             // textBoxHrTO
             // 
             textBoxHrTO.Location = new Point(114, 103);
             textBoxHrTO.Name = "textBoxHrTO";
+            textBoxHrTO.PlaceholderText = "0";
             textBoxHrTO.Size = new Size(150, 31);
             textBoxHrTO.TabIndex = 3;
+            textBoxHrTO.Text = "0";
             // 
             // textBoxMinTO
             // 
             textBoxMinTO.Location = new Point(348, 103);
             textBoxMinTO.Name = "textBoxMinTO";
+            textBoxMinTO.PlaceholderText = "0";
             textBoxMinTO.Size = new Size(150, 31);
             textBoxMinTO.TabIndex = 4;
+            textBoxMinTO.Text = "0";
             // 
             // textBoxSecTO
             // 
             textBoxSecTO.Location = new Point(585, 103);
             textBoxSecTO.Name = "textBoxSecTO";
+            textBoxSecTO.PlaceholderText = "0";
             textBoxSecTO.Size = new Size(150, 31);
             textBoxSecTO.TabIndex = 5;
+            textBoxSecTO.Text = "0";
             // 
             // labelTotal
             // 
@@ -150,33 +165,50 @@
             textBoxCounter.Location = new Point(92, 279);
             textBoxCounter.Multiline = true;
             textBoxCounter.Name = "textBoxCounter";
+            textBoxCounter.ReadOnly = true;
             textBoxCounter.Size = new Size(301, 103);
             textBoxCounter.TabIndex = 12;
             textBoxCounter.TextChanged += textBoxCounter_TextChanged;
             // 
             // btnPause
             // 
-            btnPause.Location = new Point(516, 268);
+            btnPause.Enabled = false;
+            btnPause.Location = new Point(516, 317);
             btnPause.Name = "btnPause";
             btnPause.Size = new Size(112, 34);
             btnPause.TabIndex = 13;
             btnPause.Text = "Pause";
             btnPause.UseVisualStyleBackColor = true;
+            btnPause.Click += btnPause_Click;
             // 
             // btnStop
             // 
-            btnStop.Location = new Point(516, 337);
+            btnStop.Enabled = false;
+            btnStop.Location = new Point(516, 357);
             btnStop.Name = "btnStop";
             btnStop.Size = new Size(112, 34);
             btnStop.TabIndex = 14;
             btnStop.Text = "Stop";
             btnStop.UseVisualStyleBackColor = true;
+            btnStop.Click += btnStop_Click;
+            // 
+            // btnRestart
+            // 
+            btnRestart.Enabled = false;
+            btnRestart.Location = new Point(516, 277);
+            btnRestart.Name = "btnRestart";
+            btnRestart.Size = new Size(112, 34);
+            btnRestart.TabIndex = 15;
+            btnRestart.Text = "Restart";
+            btnRestart.UseVisualStyleBackColor = true;
+            btnRestart.Click += btnRestart_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnRestart);
             Controls.Add(btnStop);
             Controls.Add(btnPause);
             Controls.Add(textBoxCounter);
@@ -215,5 +247,6 @@
         private TextBox textBoxCounter;
         private Button btnPause;
         private Button btnStop;
+        private Button btnRestart;
     }
 }
