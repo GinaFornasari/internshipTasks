@@ -1,0 +1,1341 @@
+[
+  {
+    "id": 1,
+    "bioMom": null,
+    "bioDad": null,
+    "bioChildren": [
+      {
+        "id": 6,
+        "bioMom": {
+          "id": 1,
+          "bioMom": null,
+          "bioDad": null,
+          "bioChildren": [],
+          "gender": 1,
+          "relationships": [],
+          "name": "Barbara"
+        },
+        "bioDad": {
+          "id": 2,
+          "bioMom": null,
+          "bioDad": null,
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [],
+          "name": "Clive"
+        },
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Colette"
+      }
+    ],
+    "gender": 1,
+    "relationships": [],
+    "name": "Barbara"
+  },
+  {
+    "id": 2,
+    "bioMom": null,
+    "bioDad": null,
+    "bioChildren": [
+      {
+        "id": 6,
+        "bioMom": {
+          "id": 1,
+          "bioMom": null,
+          "bioDad": null,
+          "bioChildren": [],
+          "gender": 1,
+          "relationships": [],
+          "name": "Barbara"
+        },
+        "bioDad": {
+          "id": 2,
+          "bioMom": null,
+          "bioDad": null,
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [],
+          "name": "Clive"
+        },
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Colette"
+      }
+    ],
+    "gender": 0,
+    "relationships": [],
+    "name": "Clive"
+  },
+  {
+    "id": 3,
+    "bioMom": null,
+    "bioDad": null,
+    "bioChildren": [],
+    "gender": 0,
+    "relationships": [
+      {
+        "person": {
+          "id": 6,
+          "bioMom": {
+            "id": 1,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 1,
+            "relationships": [],
+            "name": "Barbara"
+          },
+          "bioDad": {
+            "id": 2,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Clive"
+          },
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [
+            {
+              "person": {
+                "id": 7,
+                "bioMom": {
+                  "id": 4,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 1,
+                  "relationships": [],
+                  "name": "Nonna"
+                },
+                "bioDad": {
+                  "id": 5,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Nonno"
+                },
+                "bioChildren": [],
+                "gender": 0,
+                "relationships": [],
+                "name": "Frank"
+              },
+              "relation": 3,
+              "ongoing": false
+            },
+            {
+              "person": {
+                "id": 3,
+                "bioMom": null,
+                "bioDad": null,
+                "bioChildren": [],
+                "gender": 0,
+                "relationships": [],
+                "name": "Alan"
+              },
+              "relation": 1,
+              "ongoing": false
+            }
+          ],
+          "name": "Colette"
+        },
+        "relation": 0,
+        "ongoing": false
+      }
+    ],
+    "name": "Alan"
+  },
+  {
+    "id": 4,
+    "bioMom": null,
+    "bioDad": null,
+    "bioChildren": [
+      {
+        "id": 7,
+        "bioMom": {
+          "id": 4,
+          "bioMom": null,
+          "bioDad": null,
+          "bioChildren": [],
+          "gender": 1,
+          "relationships": [],
+          "name": "Nonna"
+        },
+        "bioDad": {
+          "id": 5,
+          "bioMom": null,
+          "bioDad": null,
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [],
+          "name": "Nonno"
+        },
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Frank"
+      }
+    ],
+    "gender": 1,
+    "relationships": [],
+    "name": "Nonna"
+  },
+  {
+    "id": 5,
+    "bioMom": null,
+    "bioDad": null,
+    "bioChildren": [
+      {
+        "id": 7,
+        "bioMom": {
+          "id": 4,
+          "bioMom": null,
+          "bioDad": null,
+          "bioChildren": [],
+          "gender": 1,
+          "relationships": [],
+          "name": "Nonna"
+        },
+        "bioDad": {
+          "id": 5,
+          "bioMom": null,
+          "bioDad": null,
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [],
+          "name": "Nonno"
+        },
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Frank"
+      }
+    ],
+    "gender": 0,
+    "relationships": [],
+    "name": "Nonno"
+  },
+  {
+    "id": 6,
+    "bioMom": {
+      "id": 1,
+      "bioMom": null,
+      "bioDad": null,
+      "bioChildren": [],
+      "gender": 1,
+      "relationships": [],
+      "name": "Barbara"
+    },
+    "bioDad": {
+      "id": 2,
+      "bioMom": null,
+      "bioDad": null,
+      "bioChildren": [],
+      "gender": 0,
+      "relationships": [],
+      "name": "Clive"
+    },
+    "bioChildren": [
+      {
+        "id": 8,
+        "bioMom": {
+          "id": 6,
+          "bioMom": {
+            "id": 1,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 1,
+            "relationships": [],
+            "name": "Barbara"
+          },
+          "bioDad": {
+            "id": 2,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Clive"
+          },
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [
+            {
+              "person": {
+                "id": 7,
+                "bioMom": {
+                  "id": 4,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 1,
+                  "relationships": [],
+                  "name": "Nonna"
+                },
+                "bioDad": {
+                  "id": 5,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Nonno"
+                },
+                "bioChildren": [],
+                "gender": 0,
+                "relationships": [],
+                "name": "Frank"
+              },
+              "relation": 3,
+              "ongoing": false
+            },
+            {
+              "person": {
+                "id": 3,
+                "bioMom": null,
+                "bioDad": null,
+                "bioChildren": [],
+                "gender": 0,
+                "relationships": [],
+                "name": "Alan"
+              },
+              "relation": 1,
+              "ongoing": false
+            }
+          ],
+          "name": "Colette"
+        },
+        "bioDad": {
+          "id": 7,
+          "bioMom": {
+            "id": 4,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 1,
+            "relationships": [],
+            "name": "Nonna"
+          },
+          "bioDad": {
+            "id": 5,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Nonno"
+          },
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [
+            {
+              "person": {
+                "id": 6,
+                "bioMom": {
+                  "id": 1,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 1,
+                  "relationships": [],
+                  "name": "Barbara"
+                },
+                "bioDad": {
+                  "id": 2,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Clive"
+                },
+                "bioChildren": [],
+                "gender": 0,
+                "relationships": [
+                  {
+                    "person": {
+                      "id": 7,
+                      "bioMom": {
+                        "id": 4,
+                        "bioMom": null,
+                        "bioDad": null,
+                        "bioChildren": [],
+                        "gender": 1,
+                        "relationships": [],
+                        "name": "Nonna"
+                      },
+                      "bioDad": {
+                        "id": 5,
+                        "bioMom": null,
+                        "bioDad": null,
+                        "bioChildren": [],
+                        "gender": 0,
+                        "relationships": [],
+                        "name": "Nonno"
+                      },
+                      "bioChildren": [],
+                      "gender": 0,
+                      "relationships": [],
+                      "name": "Frank"
+                    },
+                    "relation": 3,
+                    "ongoing": false
+                  }
+                ],
+                "name": "Colette"
+              },
+              "relation": 3,
+              "ongoing": false
+            }
+          ],
+          "name": "Frank"
+        },
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Gina"
+      }
+    ],
+    "gender": 0,
+    "relationships": [
+      {
+        "person": {
+          "id": 7,
+          "bioMom": {
+            "id": 4,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 1,
+            "relationships": [],
+            "name": "Nonna"
+          },
+          "bioDad": {
+            "id": 5,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Nonno"
+          },
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [],
+          "name": "Frank"
+        },
+        "relation": 3,
+        "ongoing": false
+      },
+      {
+        "person": {
+          "id": 3,
+          "bioMom": null,
+          "bioDad": null,
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [],
+          "name": "Alan"
+        },
+        "relation": 1,
+        "ongoing": false
+      }
+    ],
+    "name": "Colette"
+  },
+  {
+    "id": 7,
+    "bioMom": {
+      "id": 4,
+      "bioMom": null,
+      "bioDad": null,
+      "bioChildren": [],
+      "gender": 1,
+      "relationships": [],
+      "name": "Nonna"
+    },
+    "bioDad": {
+      "id": 5,
+      "bioMom": null,
+      "bioDad": null,
+      "bioChildren": [],
+      "gender": 0,
+      "relationships": [],
+      "name": "Nonno"
+    },
+    "bioChildren": [
+      {
+        "id": 8,
+        "bioMom": {
+          "id": 6,
+          "bioMom": {
+            "id": 1,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 1,
+            "relationships": [],
+            "name": "Barbara"
+          },
+          "bioDad": {
+            "id": 2,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Clive"
+          },
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [
+            {
+              "person": {
+                "id": 7,
+                "bioMom": {
+                  "id": 4,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 1,
+                  "relationships": [],
+                  "name": "Nonna"
+                },
+                "bioDad": {
+                  "id": 5,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Nonno"
+                },
+                "bioChildren": [],
+                "gender": 0,
+                "relationships": [],
+                "name": "Frank"
+              },
+              "relation": 3,
+              "ongoing": false
+            },
+            {
+              "person": {
+                "id": 3,
+                "bioMom": null,
+                "bioDad": null,
+                "bioChildren": [],
+                "gender": 0,
+                "relationships": [],
+                "name": "Alan"
+              },
+              "relation": 1,
+              "ongoing": false
+            }
+          ],
+          "name": "Colette"
+        },
+        "bioDad": {
+          "id": 7,
+          "bioMom": {
+            "id": 4,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 1,
+            "relationships": [],
+            "name": "Nonna"
+          },
+          "bioDad": {
+            "id": 5,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Nonno"
+          },
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [
+            {
+              "person": {
+                "id": 6,
+                "bioMom": {
+                  "id": 1,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 1,
+                  "relationships": [],
+                  "name": "Barbara"
+                },
+                "bioDad": {
+                  "id": 2,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Clive"
+                },
+                "bioChildren": [],
+                "gender": 0,
+                "relationships": [
+                  {
+                    "person": {
+                      "id": 7,
+                      "bioMom": {
+                        "id": 4,
+                        "bioMom": null,
+                        "bioDad": null,
+                        "bioChildren": [],
+                        "gender": 1,
+                        "relationships": [],
+                        "name": "Nonna"
+                      },
+                      "bioDad": {
+                        "id": 5,
+                        "bioMom": null,
+                        "bioDad": null,
+                        "bioChildren": [],
+                        "gender": 0,
+                        "relationships": [],
+                        "name": "Nonno"
+                      },
+                      "bioChildren": [],
+                      "gender": 0,
+                      "relationships": [],
+                      "name": "Frank"
+                    },
+                    "relation": 3,
+                    "ongoing": false
+                  }
+                ],
+                "name": "Colette"
+              },
+              "relation": 3,
+              "ongoing": false
+            }
+          ],
+          "name": "Frank"
+        },
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Gina"
+      }
+    ],
+    "gender": 0,
+    "relationships": [
+      {
+        "person": {
+          "id": 6,
+          "bioMom": {
+            "id": 1,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 1,
+            "relationships": [],
+            "name": "Barbara"
+          },
+          "bioDad": {
+            "id": 2,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Clive"
+          },
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [
+            {
+              "person": {
+                "id": 7,
+                "bioMom": {
+                  "id": 4,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 1,
+                  "relationships": [],
+                  "name": "Nonna"
+                },
+                "bioDad": {
+                  "id": 5,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Nonno"
+                },
+                "bioChildren": [],
+                "gender": 0,
+                "relationships": [],
+                "name": "Frank"
+              },
+              "relation": 3,
+              "ongoing": false
+            }
+          ],
+          "name": "Colette"
+        },
+        "relation": 3,
+        "ongoing": false
+      }
+    ],
+    "name": "Frank"
+  },
+  {
+    "id": 8,
+    "bioMom": {
+      "id": 6,
+      "bioMom": {
+        "id": 1,
+        "bioMom": null,
+        "bioDad": null,
+        "bioChildren": [],
+        "gender": 1,
+        "relationships": [],
+        "name": "Barbara"
+      },
+      "bioDad": {
+        "id": 2,
+        "bioMom": null,
+        "bioDad": null,
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Clive"
+      },
+      "bioChildren": [],
+      "gender": 0,
+      "relationships": [
+        {
+          "person": {
+            "id": 7,
+            "bioMom": {
+              "id": 4,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 1,
+              "relationships": [],
+              "name": "Nonna"
+            },
+            "bioDad": {
+              "id": 5,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 0,
+              "relationships": [],
+              "name": "Nonno"
+            },
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Frank"
+          },
+          "relation": 3,
+          "ongoing": false
+        },
+        {
+          "person": {
+            "id": 3,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Alan"
+          },
+          "relation": 1,
+          "ongoing": false
+        }
+      ],
+      "name": "Colette"
+    },
+    "bioDad": {
+      "id": 7,
+      "bioMom": {
+        "id": 4,
+        "bioMom": null,
+        "bioDad": null,
+        "bioChildren": [],
+        "gender": 1,
+        "relationships": [],
+        "name": "Nonna"
+      },
+      "bioDad": {
+        "id": 5,
+        "bioMom": null,
+        "bioDad": null,
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Nonno"
+      },
+      "bioChildren": [],
+      "gender": 0,
+      "relationships": [
+        {
+          "person": {
+            "id": 6,
+            "bioMom": {
+              "id": 1,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 1,
+              "relationships": [],
+              "name": "Barbara"
+            },
+            "bioDad": {
+              "id": 2,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 0,
+              "relationships": [],
+              "name": "Clive"
+            },
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [
+              {
+                "person": {
+                  "id": 7,
+                  "bioMom": {
+                    "id": 4,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 1,
+                    "relationships": [],
+                    "name": "Nonna"
+                  },
+                  "bioDad": {
+                    "id": 5,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 0,
+                    "relationships": [],
+                    "name": "Nonno"
+                  },
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Frank"
+                },
+                "relation": 3,
+                "ongoing": false
+              }
+            ],
+            "name": "Colette"
+          },
+          "relation": 3,
+          "ongoing": false
+        }
+      ],
+      "name": "Frank"
+    },
+    "bioChildren": [],
+    "gender": 0,
+    "relationships": [],
+    "name": "Gina"
+  },
+  {
+    "id": 9,
+    "bioMom": {
+      "id": 6,
+      "bioMom": {
+        "id": 1,
+        "bioMom": null,
+        "bioDad": null,
+        "bioChildren": [],
+        "gender": 1,
+        "relationships": [],
+        "name": "Barbara"
+      },
+      "bioDad": {
+        "id": 2,
+        "bioMom": null,
+        "bioDad": null,
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Clive"
+      },
+      "bioChildren": [
+        {
+          "id": 8,
+          "bioMom": {
+            "id": 6,
+            "bioMom": {
+              "id": 1,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 1,
+              "relationships": [],
+              "name": "Barbara"
+            },
+            "bioDad": {
+              "id": 2,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 0,
+              "relationships": [],
+              "name": "Clive"
+            },
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [
+              {
+                "person": {
+                  "id": 7,
+                  "bioMom": {
+                    "id": 4,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 1,
+                    "relationships": [],
+                    "name": "Nonna"
+                  },
+                  "bioDad": {
+                    "id": 5,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 0,
+                    "relationships": [],
+                    "name": "Nonno"
+                  },
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Frank"
+                },
+                "relation": 3,
+                "ongoing": false
+              },
+              {
+                "person": {
+                  "id": 3,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Alan"
+                },
+                "relation": 1,
+                "ongoing": false
+              }
+            ],
+            "name": "Colette"
+          },
+          "bioDad": {
+            "id": 7,
+            "bioMom": {
+              "id": 4,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 1,
+              "relationships": [],
+              "name": "Nonna"
+            },
+            "bioDad": {
+              "id": 5,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 0,
+              "relationships": [],
+              "name": "Nonno"
+            },
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [
+              {
+                "person": {
+                  "id": 6,
+                  "bioMom": {
+                    "id": 1,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 1,
+                    "relationships": [],
+                    "name": "Barbara"
+                  },
+                  "bioDad": {
+                    "id": 2,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 0,
+                    "relationships": [],
+                    "name": "Clive"
+                  },
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [
+                    {
+                      "person": {
+                        "id": 7,
+                        "bioMom": {
+                          "id": 4,
+                          "bioMom": null,
+                          "bioDad": null,
+                          "bioChildren": [],
+                          "gender": 1,
+                          "relationships": [],
+                          "name": "Nonna"
+                        },
+                        "bioDad": {
+                          "id": 5,
+                          "bioMom": null,
+                          "bioDad": null,
+                          "bioChildren": [],
+                          "gender": 0,
+                          "relationships": [],
+                          "name": "Nonno"
+                        },
+                        "bioChildren": [],
+                        "gender": 0,
+                        "relationships": [],
+                        "name": "Frank"
+                      },
+                      "relation": 3,
+                      "ongoing": false
+                    }
+                  ],
+                  "name": "Colette"
+                },
+                "relation": 3,
+                "ongoing": false
+              }
+            ],
+            "name": "Frank"
+          },
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [],
+          "name": "Gina"
+        }
+      ],
+      "gender": 0,
+      "relationships": [
+        {
+          "person": {
+            "id": 7,
+            "bioMom": {
+              "id": 4,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 1,
+              "relationships": [],
+              "name": "Nonna"
+            },
+            "bioDad": {
+              "id": 5,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 0,
+              "relationships": [],
+              "name": "Nonno"
+            },
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Frank"
+          },
+          "relation": 3,
+          "ongoing": false
+        },
+        {
+          "person": {
+            "id": 3,
+            "bioMom": null,
+            "bioDad": null,
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [],
+            "name": "Alan"
+          },
+          "relation": 1,
+          "ongoing": false
+        }
+      ],
+      "name": "Colette"
+    },
+    "bioDad": {
+      "id": 7,
+      "bioMom": {
+        "id": 4,
+        "bioMom": null,
+        "bioDad": null,
+        "bioChildren": [],
+        "gender": 1,
+        "relationships": [],
+        "name": "Nonna"
+      },
+      "bioDad": {
+        "id": 5,
+        "bioMom": null,
+        "bioDad": null,
+        "bioChildren": [],
+        "gender": 0,
+        "relationships": [],
+        "name": "Nonno"
+      },
+      "bioChildren": [
+        {
+          "id": 8,
+          "bioMom": {
+            "id": 6,
+            "bioMom": {
+              "id": 1,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 1,
+              "relationships": [],
+              "name": "Barbara"
+            },
+            "bioDad": {
+              "id": 2,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 0,
+              "relationships": [],
+              "name": "Clive"
+            },
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [
+              {
+                "person": {
+                  "id": 7,
+                  "bioMom": {
+                    "id": 4,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 1,
+                    "relationships": [],
+                    "name": "Nonna"
+                  },
+                  "bioDad": {
+                    "id": 5,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 0,
+                    "relationships": [],
+                    "name": "Nonno"
+                  },
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Frank"
+                },
+                "relation": 3,
+                "ongoing": false
+              },
+              {
+                "person": {
+                  "id": 3,
+                  "bioMom": null,
+                  "bioDad": null,
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Alan"
+                },
+                "relation": 1,
+                "ongoing": false
+              }
+            ],
+            "name": "Colette"
+          },
+          "bioDad": {
+            "id": 7,
+            "bioMom": {
+              "id": 4,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 1,
+              "relationships": [],
+              "name": "Nonna"
+            },
+            "bioDad": {
+              "id": 5,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 0,
+              "relationships": [],
+              "name": "Nonno"
+            },
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [
+              {
+                "person": {
+                  "id": 6,
+                  "bioMom": {
+                    "id": 1,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 1,
+                    "relationships": [],
+                    "name": "Barbara"
+                  },
+                  "bioDad": {
+                    "id": 2,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 0,
+                    "relationships": [],
+                    "name": "Clive"
+                  },
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [
+                    {
+                      "person": {
+                        "id": 7,
+                        "bioMom": {
+                          "id": 4,
+                          "bioMom": null,
+                          "bioDad": null,
+                          "bioChildren": [],
+                          "gender": 1,
+                          "relationships": [],
+                          "name": "Nonna"
+                        },
+                        "bioDad": {
+                          "id": 5,
+                          "bioMom": null,
+                          "bioDad": null,
+                          "bioChildren": [],
+                          "gender": 0,
+                          "relationships": [],
+                          "name": "Nonno"
+                        },
+                        "bioChildren": [],
+                        "gender": 0,
+                        "relationships": [],
+                        "name": "Frank"
+                      },
+                      "relation": 3,
+                      "ongoing": false
+                    }
+                  ],
+                  "name": "Colette"
+                },
+                "relation": 3,
+                "ongoing": false
+              }
+            ],
+            "name": "Frank"
+          },
+          "bioChildren": [],
+          "gender": 0,
+          "relationships": [],
+          "name": "Gina"
+        }
+      ],
+      "gender": 0,
+      "relationships": [
+        {
+          "person": {
+            "id": 6,
+            "bioMom": {
+              "id": 1,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 1,
+              "relationships": [],
+              "name": "Barbara"
+            },
+            "bioDad": {
+              "id": 2,
+              "bioMom": null,
+              "bioDad": null,
+              "bioChildren": [],
+              "gender": 0,
+              "relationships": [],
+              "name": "Clive"
+            },
+            "bioChildren": [],
+            "gender": 0,
+            "relationships": [
+              {
+                "person": {
+                  "id": 7,
+                  "bioMom": {
+                    "id": 4,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 1,
+                    "relationships": [],
+                    "name": "Nonna"
+                  },
+                  "bioDad": {
+                    "id": 5,
+                    "bioMom": null,
+                    "bioDad": null,
+                    "bioChildren": [],
+                    "gender": 0,
+                    "relationships": [],
+                    "name": "Nonno"
+                  },
+                  "bioChildren": [],
+                  "gender": 0,
+                  "relationships": [],
+                  "name": "Frank"
+                },
+                "relation": 3,
+                "ongoing": false
+              }
+            ],
+            "name": "Colette"
+          },
+          "relation": 3,
+          "ongoing": false
+        }
+      ],
+      "name": "Frank"
+    },
+    "bioChildren": [],
+    "gender": 0,
+    "relationships": [],
+    "name": "Luca"
+  }
+]
