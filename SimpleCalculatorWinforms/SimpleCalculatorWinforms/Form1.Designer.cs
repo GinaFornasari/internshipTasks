@@ -50,6 +50,7 @@
             this.btnOpenB = new System.Windows.Forms.Button();
             this.btnCloseB = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.btnDecimal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblExpression
@@ -240,11 +241,22 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click_1);
             // 
+            // btnDecimal
+            // 
+            this.btnDecimal.Location = new System.Drawing.Point(621, 261);
+            this.btnDecimal.Name = "btnDecimal";
+            this.btnDecimal.Size = new System.Drawing.Size(75, 60);
+            this.btnDecimal.TabIndex = 6;
+            this.btnDecimal.Text = ",";
+            this.btnDecimal.UseVisualStyleBackColor = true;
+            this.btnDecimal.Click += new System.EventHandler(this.btnDecimal_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDecimal);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.textboxAnswer);
             this.Controls.Add(this.btnSubmit);
@@ -295,6 +307,7 @@
         private System.Windows.Forms.Button btnOpenB;
         private System.Windows.Forms.Button btnCloseB;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnDecimal;
     }
 }
 
