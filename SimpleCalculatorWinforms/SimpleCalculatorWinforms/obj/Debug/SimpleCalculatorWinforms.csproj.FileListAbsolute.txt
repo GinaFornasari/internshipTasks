@@ -1,0 +1,10 @@
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\bin\Debug\SimpleCalculatorWinforms.exe.config
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\bin\Debug\SimpleCalculatorWinforms.exe
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\bin\Debug\SimpleCalculatorWinforms.pdb
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\obj\Debug\SimpleCalculatorWinforms.csproj.AssemblyReference.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\obj\Debug\SimpleCalculatorWinforms.Form1.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\obj\Debug\SimpleCalculatorWinforms.Properties.Resources.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\obj\Debug\SimpleCalculatorWinforms.csproj.GenerateResource.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\obj\Debug\SimpleCalculatorWinforms.csproj.CoreCompileInputs.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\obj\Debug\SimpleCalculatorWinforms.exe
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\SimpleCalculatorWinforms\SimpleCalculatorWinforms\obj\Debug\SimpleCalculatorWinforms.pdb
