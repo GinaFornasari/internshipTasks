@@ -1,0 +1,1052 @@
+2023-12-18 08:58:44,261 [1] INFO Callbacks.Program - Hello logging world!
+2023-12-18 08:59:22,014 [1] INFO Callbacks.Program - Hello logging world!
+2023-12-18 09:05:04,977 [1] INFO Callbacks.Program - Hello logging world!
+2023-12-18 09:05:31,155 [1] INFO Callbacks.Program - Hello logging world!
+2023-12-18 09:08:44,493 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 09:08:44,498 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 09:08:44,499 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 09:08:44,500 [1] INFO Callbacks.Program - Hello logging world!
+2023-12-18 09:21:15,512 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 09:21:15,520 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 09:21:15,520 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 09:21:15,522 [1] INFO Callbacks.Program - Hello logging world!
+2023-12-18 09:21:15,563 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 09:22:54,682 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 09:22:54,688 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 09:22:54,688 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 09:22:54,721 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 10:33:30,551 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 10:33:30,559 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 10:33:30,559 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 10:33:30,602 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 10:33:31,605 [6] INFO Callbacks.Form1 - Tick
+2023-12-18 10:34:23,681 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 10:34:23,685 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 10:34:23,685 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 10:34:23,710 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 10:34:24,714 [6] INFO Callbacks.Form1 - Tick2023/12/18 10:34:24
+2023-12-18 10:40:56,904 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 10:40:56,909 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 10:40:56,909 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 10:40:56,951 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 10:44:04,260 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 10:44:04,265 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 10:44:04,265 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 10:44:04,292 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 10:44:20,675 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 10:44:20,682 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 10:44:20,682 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 10:44:20,726 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 10:44:21,718 [6] INFO Callbacks.Form1 - Tick 2023/12/18 10:44:21
+2023-12-18 10:46:30,841 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 10:46:30,850 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 10:46:30,850 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 10:46:30,886 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 10:46:31,885 [6] INFO Callbacks.Form1 - Tick 2023/12/18 10:46:31
+2023-12-18 10:50:53,967 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 10:50:53,976 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 10:50:53,976 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 10:50:54,012 [6] INFO Callbacks.Form1 - Tick 2023/12/18 10:50:54
+2023-12-18 10:50:54,033 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 10:50:55,025 [6] INFO Callbacks.Form1 - Tick 2023/12/18 10:50:55
+2023-12-18 10:50:56,029 [6] INFO Callbacks.Form1 - Tick 2023/12/18 10:50:56
+2023-12-18 10:50:57,036 [7] INFO Callbacks.Form1 - Tick 2023/12/18 10:50:57
+2023-12-18 10:50:58,043 [6] INFO Callbacks.Form1 - Tick 2023/12/18 10:50:58
+2023-12-18 10:50:59,044 [7] INFO Callbacks.Form1 - Tick 2023/12/18 10:50:59
+2023-12-18 10:51:00,052 [6] INFO Callbacks.Form1 - Tick 2023/12/18 10:51:00
+2023-12-18 10:51:01,060 [7] INFO Callbacks.Form1 - Tick 2023/12/18 10:51:01
+2023-12-18 10:51:02,075 [6] INFO Callbacks.Form1 - Tick 2023/12/18 10:51:02
+2023-12-18 11:07:45,490 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:07:45,499 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:07:45,499 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:07:45,559 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:09:04,528 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:09:04,534 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:09:04,534 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:09:04,574 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:10:08,762 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:10:08,767 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:10:08,767 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:10:08,821 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:11:26,957 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:11:26,965 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:11:26,965 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:11:27,022 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:12:31,220 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:12:31,225 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:12:31,226 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:12:31,265 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:12:32,287 [6] ERROR Callbacks.Form1 - Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+2023-12-18 11:12:33,281 [6] ERROR Callbacks.Form1 - Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+2023-12-18 11:12:34,281 [6] ERROR Callbacks.Form1 - Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+2023-12-18 11:12:35,286 [7] ERROR Callbacks.Form1 - Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+2023-12-18 11:12:36,292 [6] ERROR Callbacks.Form1 - Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+2023-12-18 11:12:37,304 [7] ERROR Callbacks.Form1 - Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+2023-12-18 11:12:38,306 [6] ERROR Callbacks.Form1 - Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+2023-12-18 11:17:33,472 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:17:33,480 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:17:33,480 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:17:33,545 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:18:25,673 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:18:25,678 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:18:25,679 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:18:25,719 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:19:21,851 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:19:21,858 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:19:21,858 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:19:21,889 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:21:56,263 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:21:56,270 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:21:56,270 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:21:56,307 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:34:54,969 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:34:54,976 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:34:54,976 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:34:55,019 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:39:52,006 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:39:52,015 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:39:52,015 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:39:52,044 [6] INFO Callbacks.Form1 - 11:39:52
+2023-12-18 11:39:52,055 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:39:53,056 [6] INFO Callbacks.Form1 - 11:39:53
+2023-12-18 11:39:54,072 [6] INFO Callbacks.Form1 - 11:39:54
+2023-12-18 11:39:55,078 [7] INFO Callbacks.Form1 - 11:39:55
+2023-12-18 11:39:56,091 [6] INFO Callbacks.Form1 - 11:39:56
+2023-12-18 11:39:57,101 [7] INFO Callbacks.Form1 - 11:39:57
+2023-12-18 11:57:51,521 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:57:51,530 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:57:51,530 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:57:51,578 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:57:52,596 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:57:53,596 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:57:54,601 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:57:55,617 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:57:56,618 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:57:57,628 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:57:58,638 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:57:59,644 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:00,643 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:01,650 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:02,663 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:03,667 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:04,666 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:05,677 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:06,684 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:07,696 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:08,713 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:09,723 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:10,716 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:11,731 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:12,731 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:13,739 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:14,745 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:58:15,755 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:36,745 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 11:59:36,754 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 11:59:36,754 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 11:59:36,810 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 11:59:36,860 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:37,810 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:38,820 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:39,834 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:40,835 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:41,838 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:42,850 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:43,850 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:44,853 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:45,871 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:46,866 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:47,868 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:48,887 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:49,882 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 11:59:50,903 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<.ctor>b__11_0(Object sender, EventArgs e) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 38
+2023-12-18 12:07:26,978 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 12:07:26,987 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 12:07:26,987 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 12:07:27,028 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 12:08:04,649 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 12:08:04,657 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 12:08:04,657 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 12:08:04,693 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 12:08:08,880 [1] INFO Callbacks.Form1 - Clicked
+2023-12-18 12:12:53,045 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 12:12:53,052 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 12:12:53,052 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 12:12:53,089 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 12:12:57,744 [1] INFO Callbacks.Form1 - Clicked
+2023-12-18 12:12:57,845 [1] INFO Callbacks.Form1 - Clicked
+2023-12-18 12:12:58,134 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:12:58,139 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:12:59,121 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:12:59,126 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:00,132 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:00,136 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:01,143 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:01,149 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:02,138 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:02,143 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:03,142 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:03,147 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:04,156 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:04,162 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:13:57,192 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 12:13:57,197 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 12:13:57,198 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 12:13:57,244 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 12:13:59,623 [1] INFO Callbacks.Form1 - Clicked
+2023-12-18 12:14:00,276 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_1(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:14:01,279 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_1(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:14:02,287 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_1(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:14:03,283 [7] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_1(Object send, EventArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:16:49,185 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 12:16:49,194 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 12:16:49,194 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 12:16:49,236 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 12:16:51,328 [1] INFO Callbacks.Form1 - Clicked
+2023-12-18 12:16:52,261 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_1(Object send, SimpleMessageArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:16:53,260 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_1(Object send, SimpleMessageArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:30:59,422 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 12:30:59,431 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 12:30:59,431 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 12:30:59,471 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 12:31:03,608 [1] INFO Callbacks.Form1 - Clicked
+2023-12-18 12:31:04,528 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, SimpleMessageArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:31:05,519 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, SimpleMessageArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:31:06,522 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, SimpleMessageArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:31:07,522 [8] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, SimpleMessageArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:31:08,537 [6] ERROR Callbacks.Form1 - System.InvalidOperationException: Cross-thread operation not valid: Control 'txtbxEvents' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at Callbacks.Form1.<btnSubEvent_Click>b__14_0(Object send, SimpleMessageArgs ev) in C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\Form1.cs:line 62
+2023-12-18 12:41:23,973 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 12:41:23,984 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 12:41:23,985 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 12:41:24,041 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 12:41:26,512 [1] INFO Callbacks.Form1 - Clicked
+2023-12-18 13:00:23,297 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 13:00:23,303 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 13:00:23,303 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 13:00:23,353 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 13:00:26,836 [1] INFO Callbacks.Form1 - Clicked
+2023-12-18 13:02:55,529 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 13:02:55,534 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 13:02:55,535 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 13:02:55,573 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 13:02:57,760 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 13:03:02,048 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 13:03:05,564 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 13:03:06,973 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 13:03:08,202 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 13:03:10,326 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 13:03:11,500 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 13:03:12,315 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 13:16:36,240 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 13:16:36,248 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 13:16:36,248 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 13:16:36,365 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 13:16:37,855 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 13:16:41,282 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 13:16:43,180 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 13:16:45,621 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 13:16:47,220 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 13:16:48,145 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 13:28:36,291 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 13:28:36,298 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 13:28:36,298 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 13:28:36,348 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 13:28:55,573 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 13:28:57,849 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 13:29:24,643 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 13:29:24,650 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 13:29:24,650 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 13:29:24,697 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 13:29:27,067 [1] INFO Callbacks.Form1 - SubEven Clicked
+2023-12-18 14:03:34,342 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 14:03:34,350 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 14:03:34,350 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 14:03:34,405 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 14:03:38,971 [1] INFO Callbacks.Form1 - SubEven Clicked
+2023-12-18 14:03:41,186 [1] INFO Callbacks.Form1 - SubEven Clicked
+2023-12-18 14:04:48,733 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 14:04:48,741 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 14:04:48,741 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 14:04:48,783 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 14:04:49,987 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:04:52,871 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:04:55,334 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:04:55,792 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:04:58,156 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:09:12,203 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 14:09:12,211 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 14:09:12,211 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 14:09:12,261 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 14:09:15,664 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:09:22,840 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:11:49,767 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 14:11:49,776 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 14:11:49,776 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 14:11:49,822 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 14:11:52,724 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:11:57,752 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:12:00,813 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:12:01,954 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:12:03,395 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:12:04,326 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:12:05,208 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:12:05,413 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:25:42,076 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 14:25:42,081 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 14:25:42,081 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 14:25:42,117 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 14:25:44,776 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:27:31,497 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 14:27:31,506 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 14:27:31,506 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 14:27:31,551 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 14:27:33,138 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:27:39,959 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:27:42,987 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:27:44,813 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:30:55,053 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 14:30:55,060 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 14:30:55,060 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 14:30:55,096 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 14:30:56,924 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:31:03,879 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:36:12,594 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 14:36:12,601 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 14:36:12,602 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 14:36:12,646 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 14:36:14,296 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:36:31,541 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:36:32,411 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:37:25,919 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 14:37:25,927 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 14:37:25,927 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 14:37:25,960 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 14:37:27,407 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:37:31,826 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 14:37:35,082 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 14:37:36,218 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:03:42,461 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 15:03:42,467 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 15:03:42,467 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 15:03:42,500 [1] INFO Callbacks.Form1 - Starting a threading timer
+2023-12-18 15:03:42,502 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:03:42,504 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:03:42,531 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 15:03:43,514 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:03:43,514 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:03:44,526 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:03:44,527 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:03:44,635 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:03:45,535 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:03:45,537 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:03:46,540 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:03:46,543 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:03:47,543 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:03:47,544 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:03:48,546 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:03:48,547 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:03:49,561 [8] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:03:49,564 [8] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:03:50,575 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:03:50,578 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:15,242 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 15:04:15,249 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 15:04:15,249 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 15:04:15,285 [1] INFO Callbacks.Form1 - Starting a threading timer
+2023-12-18 15:04:15,287 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:15,288 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:15,318 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 15:04:16,289 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:16,289 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:17,151 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:04:17,296 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:17,299 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:18,305 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:18,309 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:19,310 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:19,311 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:20,313 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:20,315 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:21,326 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:21,330 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:22,342 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:22,347 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:23,343 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:23,345 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:24,353 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:24,358 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:25,358 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:25,363 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:26,365 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:26,366 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:27,372 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:27,377 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:28,391 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:28,397 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:29,395 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:29,396 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:30,406 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:30,412 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:31,426 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:31,430 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:32,437 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:32,442 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:33,443 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:33,447 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:34,445 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:34,447 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:35,455 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:35,460 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:36,476 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:36,478 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:37,149 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:04:37,387 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:04:37,477 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:37,484 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:38,491 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:38,494 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:39,494 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:39,502 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:40,511 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:40,515 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:41,522 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:41,533 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:42,527 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:42,535 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:43,545 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:43,550 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:44,536 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:04:44,553 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:44,560 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:44,705 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:04:44,853 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:04:45,140 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:04:45,560 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:45,560 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:46,568 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:46,568 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:47,574 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:47,574 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:48,576 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:48,576 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:49,578 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:49,578 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:50,591 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:50,591 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:51,592 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:51,592 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:52,602 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:52,602 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:53,607 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:53,607 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:54,611 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:54,611 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:55,621 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:55,622 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:56,626 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:56,626 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:57,629 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:57,629 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:58,639 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:58,639 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:04:59,644 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:04:59,645 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:00,645 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:00,645 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:11,663 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 15:05:11,671 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 15:05:11,671 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 15:05:11,700 [1] INFO Callbacks.Form1 - Starting a threading timer
+2023-12-18 15:05:11,702 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:11,702 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:11,716 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 15:05:12,709 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:12,709 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:13,554 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:13,710 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:13,715 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:13,719 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:13,931 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:14,306 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:14,721 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:14,726 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:15,727 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:15,739 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:15,760 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:15,942 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:16,728 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:16,734 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:17,742 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:17,752 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:18,752 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:18,763 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:19,754 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:19,765 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:20,756 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:20,766 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:21,761 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:21,773 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:22,772 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:22,786 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:23,776 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:23,786 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:24,778 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:24,787 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:25,789 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:25,798 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:26,793 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:26,802 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:27,096 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:27,520 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:27,797 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:27,803 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:27,895 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:28,109 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:28,350 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:28,806 [7] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:28,809 [7] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:38,090 [1] INFO Callbacks.Program - This is an informational message
+2023-12-18 15:05:38,098 [1] WARN Callbacks.Program - This is a warning message
+2023-12-18 15:05:38,098 [1] ERROR Callbacks.Program - This is an error message
+System.Exception: An error occurred
+2023-12-18 15:05:38,125 [1] INFO Callbacks.Form1 - Starting a threading timer
+2023-12-18 15:05:38,126 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:38,127 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:38,139 [1] INFO Callbacks.Form1 - WinForms application started.
+2023-12-18 15:05:39,131 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:39,131 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:40,135 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:40,135 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:40,182 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:40,512 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:40,804 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:41,046 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:41,139 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:41,148 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:41,298 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:42,143 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:42,154 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:42,929 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:43,124 [1] INFO Callbacks.Form1 - Sub1 Clicked
+2023-12-18 15:05:43,151 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:43,159 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:44,159 [8] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:44,174 [8] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:45,162 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:45,182 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:45,837 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:46,064 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:46,166 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:46,170 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:46,248 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:46,516 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:46,727 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:46,992 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:47,174 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:47,177 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:47,230 [1] INFO Callbacks.Form1 - UnSub1 Clicked
+2023-12-18 15:05:48,176 [8] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:48,177 [8] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:49,190 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:49,190 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:50,191 [8] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:50,192 [8] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:51,193 [6] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:51,194 [6] INFO Callbacks.Form1 - Publishing Messages
+2023-12-18 15:05:52,204 [8] INFO Callbacks.Form1 - Defining ticks
+2023-12-18 15:05:52,205 [8] INFO Callbacks.Form1 - Publishing Messages

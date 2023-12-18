@@ -1,0 +1,16 @@
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\bin\Debug\Callbacks.exe.config
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\bin\Debug\Callbacks.exe
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\bin\Debug\Callbacks.pdb
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\bin\Debug\log4net.dll
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\bin\Debug\log4net.xml
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\obj\Debug\Callbacks.csproj.AssemblyReference.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\obj\Debug\Callbacks.Form1.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\obj\Debug\Callbacks.Properties.Resources.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\obj\Debug\Callbacks.csproj.GenerateResource.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\obj\Debug\Callbacks.csproj.CoreCompileInputs.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\obj\Debug\Callbacks.csproj.CopyComplete
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\obj\Debug\Callbacks.exe
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\obj\Debug\Callbacks.pdb
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\bin\Debug\log4net.config
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\bin\Debug\ConcurrentCollections.dll
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\Callbacks\Callbacks\bin\Debug\ConcurrentCollections.xml
