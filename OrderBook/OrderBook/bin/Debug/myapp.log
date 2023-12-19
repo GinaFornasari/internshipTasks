@@ -3,3 +3,49 @@
 2023-12-19 13:11:22,139 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
 2023-12-19 13:11:52,698 [1] ERROR OrderBook.Form1 - Could not close Async
 2023-12-19 13:11:52,698 [1] ERROR OrderBook.Form1 - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.
+2023-12-19 13:24:42,101 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 13:24:42,116 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 13:24:49,122 [1] ERROR OrderBook.Form1 - Could not close Async
+2023-12-19 13:24:49,122 [1] ERROR OrderBook.Form1 - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.
+2023-12-19 13:59:46,306 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 13:59:46,317 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 13:59:50,607 [1] ERROR OrderBook.Form1 - Could not close Async
+2023-12-19 13:59:50,607 [1] ERROR OrderBook.Form1 - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.
+2023-12-19 13:59:56,494 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 13:59:56,494 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 14:00:00,065 [1] ERROR OrderBook.Form1 - Could not close Async
+2023-12-19 14:00:00,065 [1] ERROR OrderBook.Form1 - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.
+2023-12-19 14:00:52,035 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 14:00:52,050 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 14:00:53,176 [1] ERROR OrderBook.Form1 - Could not close Async
+2023-12-19 14:00:53,176 [1] ERROR OrderBook.Form1 - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.
+2023-12-19 14:02:44,424 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 14:02:44,424 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 14:02:46,165 [1] ERROR OrderBook.Form1 - Could not close Async
+2023-12-19 14:02:46,165 [1] ERROR OrderBook.Form1 - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.
+2023-12-19 14:08:33,104 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 14:08:33,104 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 14:08:52,408 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 14:08:52,417 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 14:09:35,770 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 14:09:35,779 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 14:09:42,430 [1] ERROR OrderBook.Form1 - Could not close Async
+2023-12-19 14:09:42,430 [1] ERROR OrderBook.Form1 - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.
+2023-12-19 14:09:47,658 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 14:09:47,669 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 15:03:26,045 [1] INFO OrderBook.Socket - Connected to the WebSocket server.
+2023-12-19 15:03:26,045 [1] INFO OrderBook.Socket - Subscribed to order book updates.
+2023-12-19 15:03:30,076 [1] ERROR OrderBook.Socket - Could not close Async
+2023-12-19 15:03:30,076 [1] ERROR OrderBook.Socket - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.
+2023-12-19 15:03:40,658 [1] INFO OrderBook.Socket - Connected to the WebSocket server.
+2023-12-19 15:03:40,658 [1] INFO OrderBook.Socket - Subscribed to order book updates.
+2023-12-19 15:03:48,139 [1] INFO OrderBook.Socket - Connected to the WebSocket server.
+2023-12-19 15:03:48,171 [1] INFO OrderBook.Socket - Subscribed to order book updates.
+2023-12-19 15:03:55,004 [1] INFO OrderBook.Socket - WebSocket connection closed.
+2023-12-19 15:11:46,220 [1] INFO OrderBook.Socket - Connected to the WebSocket server.
+2023-12-19 15:11:46,235 [1] INFO OrderBook.Socket - Subscribed to order book updates.
+2023-12-19 15:11:49,463 [1] INFO OrderBook.Socket - WebSocket connection closed.
+2023-12-19 15:15:03,023 [1] INFO OrderBook.Socket - Connected to the WebSocket server.
+2023-12-19 15:15:03,035 [1] INFO OrderBook.Socket - Subscribed to order book updates.
+2023-12-19 15:15:10,929 [1] ERROR OrderBook.Socket - Could not close Async
+2023-12-19 15:15:10,929 [1] ERROR OrderBook.Socket - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.

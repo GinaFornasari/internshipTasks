@@ -13,198 +13,85 @@ using Newtonsoft.Json;
 using System.Net.WebSockets;
 using System.Threading;
 using System.Net.Sockets;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Reflection;
+using System.Web.UI.WebControls;
 
 namespace OrderBook
 {
     public partial class Form1 : Form
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(Form1));
-        public static ClientWebSocket webSocket = new ClientWebSocket();
+        
+        private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
+        public ClientWebSocket webSocket = new ClientWebSocket();
         public Form1()
         {
             InitializeComponent();
+            comboBoxCoin.SelectedItem = "XBTUSD";
         }
         private async void btnRest_Click(object sender, EventArgs e)
         {
             try
             {
-                await getOrderBookRest();
+                Rest rest = new Rest();
+                rest.MessageUpdated += UpdateTextBoxFromRest;
+                rest.GetSelectedItem = new Func<string>(GetSelectedComboBoxItem);
+                await rest.getOrderBookRest();
             }
             catch (Exception ex)
             {
                 log.Error("Could not get the order book");
             }
         }
-        public async Task getOrderBookRest()
-        {
-            string symbol = "XBTUSD"; 
-            int depth = 25;
-            string result = await MakeRestCall($"https://www.bitmex.com/api/v1/orderBook/L2?symbol={symbol}&depth={depth}");
-            if (result.Equals(String.Empty))
-            {
-                log.Error("Could not get a rest resoponse");
-                txtbxRest.Text += "Error while getting response" +Environment.NewLine;
-            }
-            else
-            {
-                txtbxRest.Text += format(result);
-            }
-        }
-        static async Task<string> MakeRestCall(string apiUrl)
-        {
-            try
-            {
-                using (HttpClient client = new HttpClient())
-                {
-                    HttpResponseMessage response = await client.GetAsync(apiUrl);
-                    if (response.IsSuccessStatusCode)
-                    {
-                        return await response.Content.ReadAsStringAsync();
-                    }
-                    else
-                    {
-                        log.Error("Response status code not succesful");
-                        log.Error($"Error: {response.StatusCode} - {response.ReasonPhrase}");
-                        return null;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                log.Error("Something went wrong while trying to make a REST call"); 
-                log.Error(ex.ToString());
-            }
-            return null; 
-        }
         private async void btnSocket_Click(object sender, EventArgs e)
         {
+            Socket sock = new Socket();
+            sock.MessageUpdated += UpdateTextBoxFromSocket;
+            sock.GetSelectedItem = new Func<string>(GetSelectedComboBoxItem);
             if (btnSocket.Text.Equals("Open Socket"))
             {
                 btnSocket.Text = "Close Socket";
                 webSocket = new ClientWebSocket();
-                await getSocket("Connect");
+                await sock.getSocket(webSocket, "Connect");
             }
             else
             {
                 btnSocket.Text = "Open Socket";
-                await getSocket("Close");
+                await sock.getSocket(webSocket, "Close");
             }
         }
-        public async Task getSocket(string act)
+        private void UpdateTextBoxFromSocket(string message)
         {
-            Uri serverUri = new Uri("wss://ws.bitmex.com/realtime");
-            if (act.Equals("Connect"))
+            if (txtbxSocket.InvokeRequired)
             {
-                try
-                {
-                    await ConnectToWebSocketServer(serverUri);
-                    await SubscribeToOrderBook();
-                }
-                catch (Exception ex )
-                {
-                    log.Error("Could not connect to socket and subscribe to order book"); 
-                    log.Error(ex.ToString()); 
-                }
+                txtbxSocket.Invoke(new Action<string>(UpdateTextBoxFromSocket), message);
             }
             else
             {
-                try
-                {
-                    await CloseWebSocket();
-                }catch(Exception ex)
-                {
-                    log.Error("Could not close socket");
-                    log.Error(ex.ToString());
-                }
+                txtbxSocket.Text += message;
             }
         }
-        public async Task ConnectToWebSocketServer(Uri serverUri)
+        private void UpdateTextBoxFromRest(string message)
         {
-            try
+            if (txtbxRest.InvokeRequired)
             {
-                await webSocket.ConnectAsync(serverUri, CancellationToken.None);
-                log.Info("Connected to the WebSocket server.");
-                string receivedMessage = await ReceiveMessage();
-                if(receivedMessage.Equals(String.Empty))
-                {
-                    txtbxSocket.Text += "Could not receive message"; 
-                }
-                else
-                {
-                    txtbxSocket.Text += receivedMessage + Environment.NewLine;
-                }
-            }
-            catch (Exception ex)
-            {
-                log.Error("Could not connect to web socket server"); 
-                log.Error($"Error: {ex.Message}");
-            }
-        }
-        public async Task SubscribeToOrderBook()
-        {
-            if (webSocket.State == WebSocketState.Open)
-            {
-                byte[] subscriptionData = Encoding.UTF8.GetBytes("{\"op\": \"subscribe\", \"args\": [\"orderBookL2_25:XBTUSD\"]}");
-                try
-                {
-                    await webSocket.SendAsync(new ArraySegment<byte>(subscriptionData), WebSocketMessageType.Text, true, CancellationToken.None);
-                    log.Info("Subscribed to order book updates.");
-                    while (webSocket.State == WebSocketState.Open)
-                    {
-                        byte[] buffer = new byte[1024];
-                        WebSocketReceiveResult result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
-                        if (result.MessageType == WebSocketMessageType.Text)
-                        {
-                            string receivedMessage = await ReceiveMessage();
-                            txtbxSocket.Text += receivedMessage + Environment.NewLine;
-                            await Task.Delay(1000);
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    log.Error("Could not subscribe to order book");
-                    log.Error($"Error: {ex.Message}");
-                }
+                txtbxRest.Invoke(new Action<string>(UpdateTextBoxFromSocket), message);
             }
             else
             {
-                log.Info("WebSocket connection is not open.");
+                txtbxRest.Text += message;
             }
         }
-        static async Task<string> ReceiveMessage()
+        private string GetSelectedComboBoxItem()
         {
-            byte[] buffer = new byte[1024];
-            try
+            if (comboBoxCoin.InvokeRequired)
             {
-                WebSocketReceiveResult result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
-                return Encoding.UTF8.GetString(buffer, 0, result.Count);
-            }
-            catch (Exception ex)
-            {
-                log.Error("Could not recieve messages from the socket");
-                log.Error($"Error: {ex.Message}");
-                return "";
-            }
-        }
-        static async Task CloseWebSocket()
-        {
-            if (webSocket.State == WebSocketState.Open)
-            {
-                try
-                {
-                    await webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Closing connection", CancellationToken.None);
-                    log.Info("WebSocket connection closed.");
-                }
-                catch (Exception ex)
-                {
-                    log.Error("Could not close Async");
-                    log.Error($"Error: {ex.Message}");
-                }
+                return (string)comboBoxCoin.Invoke(new Func<string>(GetSelectedComboBoxItem));
             }
             else
             {
-                log.Info("WebSocket connection is not open.");
+                return comboBoxCoin.SelectedItem?.ToString() ?? string.Empty;
             }
         }
         public string format(string result)
@@ -226,6 +113,11 @@ namespace OrderBook
                 res += order.getOrder() + Environment.NewLine;
             }
             return res;
+        }
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtbxRest.Text = string.Empty;
+            txtbxSocket.Text = string.Empty;
         }
     }
 }

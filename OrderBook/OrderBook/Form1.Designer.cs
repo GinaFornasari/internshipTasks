@@ -1,4 +1,6 @@
-﻿namespace OrderBook
+﻿using System.Windows.Forms;
+
+namespace OrderBook
 {
     partial class Form1
     {
@@ -34,6 +36,8 @@
             this.lblSocket = new System.Windows.Forms.Label();
             this.btnSocket = new System.Windows.Forms.Button();
             this.txtbxSocket = new System.Windows.Forms.TextBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.comboBoxCoin = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // txtbxRest
@@ -92,11 +96,41 @@
             this.txtbxSocket.Size = new System.Drawing.Size(449, 468);
             this.txtbxSocket.TabIndex = 5;
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(490, 609);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(99, 50);
+            this.btnClear.TabIndex = 6;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // comboBoxCoin
+            // 
+            this.comboBoxCoin.FormattingEnabled = true;
+            this.comboBoxCoin.Items.AddRange(new object[] {
+            "XBTUSD",
+            "ETHUSD",
+            "XBTUSDT",
+            "SOLUSD",
+            "LINKUSD",
+            "XBTZ23",
+            "ETHUSDT",
+            "BNBUSD",
+            "BMEXUSDT"});
+            this.comboBoxCoin.Location = new System.Drawing.Point(416, 26);
+            this.comboBoxCoin.Name = "comboBoxCoin";
+            this.comboBoxCoin.Size = new System.Drawing.Size(285, 28);
+            this.comboBoxCoin.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1105, 671);
+            this.Controls.Add(this.comboBoxCoin);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.txtbxSocket);
             this.Controls.Add(this.btnSocket);
             this.Controls.Add(this.lblSocket);
@@ -118,6 +152,9 @@
         private System.Windows.Forms.Label lblSocket;
         private System.Windows.Forms.Button btnSocket;
         private System.Windows.Forms.TextBox txtbxSocket;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.ComboBox comboBoxCoin;
+
     }
 }
 
