@@ -1,0 +1,5 @@
+2023-12-19 12:47:42,597 [1] INFO OrderBook.Form1 - get
+2023-12-19 13:11:22,139 [1] INFO OrderBook.Form1 - Connected to the WebSocket server.
+2023-12-19 13:11:22,139 [1] INFO OrderBook.Form1 - Subscribed to order book updates.
+2023-12-19 13:11:52,698 [1] ERROR OrderBook.Form1 - Could not close Async
+2023-12-19 13:11:52,698 [1] ERROR OrderBook.Form1 - Error: The received message type 'Text' is invalid after calling WebSocket.CloseAsync. WebSocket.CloseAsync should only be used if no more data is expected from the remote endpoint. Use 'WebSocket.CloseOutputAsync' instead to keep being able to receive data but close the output channel.

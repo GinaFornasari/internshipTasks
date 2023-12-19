@@ -1,0 +1,16 @@
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\bin\Debug\OrderBook.exe.config
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\bin\Debug\OrderBook.exe
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\bin\Debug\OrderBook.pdb
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\bin\Debug\log4net.dll
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\bin\Debug\log4net.xml
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\obj\Debug\OrderBook.csproj.AssemblyReference.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\obj\Debug\OrderBook.Form1.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\obj\Debug\OrderBook.Properties.Resources.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\obj\Debug\OrderBook.csproj.GenerateResource.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\obj\Debug\OrderBook.csproj.CoreCompileInputs.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\obj\Debug\OrderBook.csproj.CopyComplete
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\obj\Debug\OrderBook.exe
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\obj\Debug\OrderBook.pdb
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\OrderBook\OrderBook\bin\Debug\log4net.config
