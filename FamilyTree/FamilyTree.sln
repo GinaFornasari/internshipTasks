@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyTree", "FamilyTree\FamilyTree.csproj", "{34EA9DCA-0148-4BF5-971D-C0ED7574D315}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyTree", "FamilyTree\FamilyTree.csproj", "{F49CE40D-878C-4AC7-953B-982408E01F9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{34EA9DCA-0148-4BF5-971D-C0ED7574D315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34EA9DCA-0148-4BF5-971D-C0ED7574D315}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34EA9DCA-0148-4BF5-971D-C0ED7574D315}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34EA9DCA-0148-4BF5-971D-C0ED7574D315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49CE40D-878C-4AC7-953B-982408E01F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49CE40D-878C-4AC7-953B-982408E01F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49CE40D-878C-4AC7-953B-982408E01F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49CE40D-878C-4AC7-953B-982408E01F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FFEEB0D8-D064-44B8-B2A6-AB28CD1D5B8E}
+		SolutionGuid = {8E79226D-27EF-4C90-9061-8F528800878C}
 	EndGlobalSection
 EndGlobal

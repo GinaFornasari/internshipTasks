@@ -1,5 +1,7 @@
-﻿using System;
+﻿using log4net;
+using System;
 using System.Collections.Generic;
+//using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,30 +10,45 @@ namespace FamilyTree
 {
     public class Relationship
     {
-        public Person main {  get; set; }
-        public Person sub { get; set; }
+        private static readonly ILog log = LogManager.GetLogger(typeof(Form1));
+
+        public Person person { get; set; }
         public Relation relation { get; set; }
+        public bool ongoing { get; set; }
 
-        public Relationship(Person main, Person sub, Relation relation)
+        public Relationship(Person person, Relation relation, bool ongoing)
         {
-            this.main = main;
-            this.sub = sub;
+            this.person = person;
             this.relation = relation;
+            this.ongoing = ongoing;
         }
 
-        public Person getMain()
+        public override string ToString()
         {
-            return main;
+            return person.name + " -> Relation: " + relation.ToString() + "\nOngoing: " + ongoing.ToString();
         }
 
-        public Person getSub()
+
+    }
+
+    public enum Relation
+    {
+        AdoptedChild,
+        AdoptedParent,
+        Pet,
+        Partner
+    }
+
+    public class Duration
+    {
+        public DateTime start { get; set; }
+        public DateTime end { get; set; }
+
+        public Duration(DateTime start, DateTime end)
         {
-            return sub;
+            this.start = start;
+            this.end = end;
         }
 
-        public string toString()
-        {
-            return main.name + " is a " + relation.ToString() + " to " + sub.name;
-        }
     }
 }
