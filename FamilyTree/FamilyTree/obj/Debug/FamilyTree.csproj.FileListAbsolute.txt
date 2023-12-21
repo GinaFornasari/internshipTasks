@@ -16,3 +16,6 @@ C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\FamilyTree\FamilyTree\
 C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\FamilyTree\FamilyTree\obj\Debug\FamilyTree.csproj.CopyComplete
 C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\FamilyTree\FamilyTree\obj\Debug\FamilyTree.NewTreeForm.resources
 C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\FamilyTree\FamilyTree\obj\Debug\FamilyTree.FamilyForm.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\FamilyTree\FamilyTree\obj\Debug\FamilyTree.PersonForm.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\FamilyTree\FamilyTree\obj\Debug\FamilyTree.ViewPersonForm.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\FamilyTree\FamilyTree\obj\Debug\FamilyTree.AddRelationForm.resources

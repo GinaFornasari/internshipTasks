@@ -24,11 +24,12 @@ namespace FamilyTree
         {
             InitializeComponent();
             // persons = manager.getFamily();
-            DisplayFamily("C:\\Users\\ginaf\\source\\repos\\GinaFornasari\\internshipTasks\\FamilyTree\\FamilyTree\\Family.json"); 
+            DisplayFamily(); 
         }
-        private void DisplayFamily(string message)
+        private void DisplayFamily()
         {
-            List<Person> fam = Manager.Instance.LoadData(message);
+            Manager.Instance.LoadData();
+            List<Person> fam = Manager.Instance.getFamily();
             foreach (Person person in fam)
             {
                 textBoxDisplay.Text += person.name + Environment.NewLine; 

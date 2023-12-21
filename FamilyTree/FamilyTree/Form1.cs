@@ -16,6 +16,7 @@ namespace FamilyTree
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void btnNew_Click(object sender, EventArgs e)
@@ -34,6 +35,18 @@ namespace FamilyTree
         private void btnAdd_Click(object sender, EventArgs e)
         {
             PersonForm secondForm = new PersonForm();
+            secondForm.Show();
+        }
+
+        private void btnViewPerson_Click(object sender, EventArgs e)
+        {
+            ViewPersonForm secondForm = new ViewPersonForm();
+            secondForm.Show();
+        }
+
+        private void btnRelationship_Click(object sender, EventArgs e)
+        {
+            AddRelationForm secondForm = new AddRelationForm();
             secondForm.Show();
         }
     }

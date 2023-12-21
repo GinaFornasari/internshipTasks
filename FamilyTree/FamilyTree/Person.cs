@@ -16,74 +16,81 @@ namespace FamilyTree
         public Gender gender { get; set; }
         public List<Relationship> relationships { get; set; }
         public string name { get; set; }
-
         public Person(int id, Person bioMom, Person bioDad)
         {
             this.id = id;
             this.bioMom = bioMom;
             this.bioDad = bioDad;
-
             bioChildren = new List<Person>();
             relationships = new List<Relationship>();
+            gender = Gender.Non;
         }
-
         public string getInfo()
         {
-            //need to fix since bioMOm or dad can be null
-            return id + ": " + name + ", " + gender + "\n" + bioMom.name + " " + bioDad.name + "\nBioChildren: " + display(bioChildren) + "\nRelationships" + showRelationships() + "\n";
+            string retStr = "Name: " + name + Environment.NewLine + "ID: " + id + Environment.NewLine
+                +"Gender: " + gender + Environment.NewLine;   
+            retStr += "Biological Parents: ";
+            retStr += showParents(); 
+            retStr += Environment.NewLine + "Biological Children: ";
+            retStr += showChildren(); 
+            retStr += Environment.NewLine+ "Other relationships:";
+            retStr += showOthers(); 
+            return retStr;
         }
 
-        public virtual string display(List<Person> list)
+        public string showParents()
         {
-            string returnStr = "";
-            foreach (Person person in list)
+            string retStr = ""; 
+            if (bioMom == null)
             {
-                returnStr += person.name + "\n";
+                retStr += "mother not available, ";
             }
-            return returnStr;
-        }
-        public virtual string display(List<Relationship> list)
-        {
-
-            string returnStr = "";
-            foreach (Relationship rel in list)
+            else
             {
-                returnStr += rel.person.name + " (" + rel.relation.ToString() + ")";
-                if (rel.ongoing)
+                retStr += bioMom.name + " (mother), ";
+            }
+            if (bioDad == null)
+            {
+                retStr += "father not available.";
+            }
+            else
+            {
+                retStr += bioDad.name + " (father)";
+            }
+            return retStr; 
+        }
+        public string showChildren()
+        {
+            string retStr = "";
+            if (bioChildren.Count > 0)
+            {
+                foreach (Person person in bioChildren)
                 {
-                    returnStr += "\tCurrent";
+                    retStr += Environment.NewLine + person.name + "(ID: " + person.id + ")";
                 }
             }
-            return returnStr;
+            else
+            {
+                retStr += "No children";
+            }
+            return retStr;
         }
-
-        public string showRelationships()
+        public string showOthers()
         {
-            string str = "";
-            foreach (Relationship rel in relationships)
+            string retStr = ""; 
+            foreach (Relationship relation in relationships)
             {
-                str += rel.ToString() + "\n";
+                retStr += Environment.NewLine + relation.ToString();
             }
-
-            str += "Biological children: ";
-            for (int i = 0; i < bioChildren.Count; i++)
-            {
-                if (bioChildren[i] != null)
-                {
-                    str += bioChildren[i].name + "\n";
-                }
-
-            }
-            return str;
+            return retStr;
         }
+
 
     }
-
     public enum Gender
     {
         Male,
         Female,
-        other
+        Non
     }
-
 }

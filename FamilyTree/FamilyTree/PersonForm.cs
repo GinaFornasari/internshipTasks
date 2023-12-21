@@ -9,11 +9,14 @@ using System.Xml;
 using Newtonsoft.Json;
 using System.IO;
 using System.Collections;
+using System.Security.Cryptography;
 
 namespace FamilyTree
 {
     public partial class PersonForm : Form
     {
+
+        private static readonly ILog log = LogManager.GetLogger(typeof(PersonForm));
         private TextBox textBox2;
         private TextBox textBox3;
         private TextBox textBox4;
@@ -24,22 +27,19 @@ namespace FamilyTree
         private Button btnAddPerson;
         private TextBox textBox1;
 
-        public static List<Person> people;
-
         public PersonForm()
         {
 
             InitializeComponent();
-            people = Manager.Instance.getFamily(); 
-
+            
         }
 
         private void btnAddPerson_Click(object sender, EventArgs e)
         {
             string name = textBoxName.Text;
-            int id;
-            int idD;
-            int idM;
+            int id=0;
+            int idD=0;
+            int idM=0;
             if (int.TryParse(textBoxID.Text, out id))
             {
                 id = int.Parse(textBoxID.Text);
@@ -47,42 +47,71 @@ namespace FamilyTree
             else
             {
                 MessageBox.Show("Invalid Input, please check your answers");
+                return; 
             }
             if (int.TryParse(textBoxIDD.Text, out idD))
             {
-                id = int.Parse(textBoxIDD.Text);
+                idD = int.Parse(textBoxIDD.Text);
+                
             }
             else
             {
                 MessageBox.Show("Invalid Input, please check your answers");
+                return; 
             }
             if (int.TryParse(textBoxIDM.Text, out idM))
             {
-                id = int.Parse(textBoxIDM.Text);
+                idM = int.Parse(textBoxIDM.Text);
             }
             else
             {
                 MessageBox.Show("Invalid Input, please check your answers");
+                return; 
             }
-            //add person first 
 
-            if (!find(idM))
+            Person dad = Manager.Instance.GetPerson(idD);
+            Person mom = Manager.Instance.GetPerson(idM);
+            
+
+            if (mom==null)
             {
-                DialogResult res = MessageBox.Show("Mother is not found in the tree, would you like to add her?"){
-                    if (res == DialogResult.OK)
-                    {
-                        //clear everything to add mother and do same for dad
-                    }
+                DialogResult res = MessageBox.Show("Mother is not present, do you want to add her to the tree first? (If you do not, your bioMom field will be null and unchangeable)", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                if (res == DialogResult.OK)
+                {
+                    textBoxName.Text = String.Empty;
+                    textBoxID.Text = String.Empty;
+                    textBoxIDD.Text = String.Empty;
+                    textBoxIDM.Text = String.Empty;
+                    return; 
                 }
             }
-            if (!find(idD))
+            
+            if (dad==null)
             {
+                DialogResult res = MessageBox.Show("Father is not present, do you want to add him to the tree first? (If you do not, your bioDad field will be null and unchangeable)", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                if (res == DialogResult.OK)
+                {
+                    textBoxName.Text = String.Empty;
+                    textBoxID.Text = String.Empty;
+                    textBoxIDD.Text = String.Empty;
+                    textBoxIDM.Text = String.Empty;
+                    return;
+                }
 
             }
+            Person me = new Person(id, mom, dad);
+            me.name = name;
+
+            Manager.Instance.AddMember(me);
+            Manager.Instance.writeChanges();
+
+            Manager.Instance.addBioChild(idM, id);
+            Manager.Instance.addBioChild(idD, id);
+            Manager.Instance.writeChanges();
 
 
         }
-
+  
 
 
 

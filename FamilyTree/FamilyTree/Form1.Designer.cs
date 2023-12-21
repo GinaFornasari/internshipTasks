@@ -71,8 +71,9 @@
             this.btnViewPerson.Name = "btnViewPerson";
             this.btnViewPerson.Size = new System.Drawing.Size(156, 76);
             this.btnViewPerson.TabIndex = 3;
-            this.btnViewPerson.Text = "View Person";
+            this.btnViewPerson.Text = "View/Update Person";
             this.btnViewPerson.UseVisualStyleBackColor = true;
+            this.btnViewPerson.Click += new System.EventHandler(this.btnViewPerson_Click);
             // 
             // btnRelationship
             // 
@@ -82,6 +83,7 @@
             this.btnRelationship.TabIndex = 4;
             this.btnRelationship.Text = "Add a Relationship";
             this.btnRelationship.UseVisualStyleBackColor = true;
+            this.btnRelationship.Click += new System.EventHandler(this.btnRelationship_Click);
             // 
             // Form1
             // 

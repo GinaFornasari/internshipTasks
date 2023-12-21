@@ -15,7 +15,7 @@ namespace FamilyTree
     public partial class NewTreeForm : Form
     {
         private static readonly ILog log = LogManager.GetLogger(typeof(Form1));
-        public static readonly string filePath = "C:\\Users\\ginaf\\source\\repos\\GinaFornasari\\internshipTasks\\FamilyTree\\FamilyTree\\Family.json";
+        //public static readonly string filePath = "C:\\Users\\ginaf\\source\\repos\\GinaFornasari\\internshipTasks\\FamilyTree\\FamilyTree\\Family.json";
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBoxNm;
@@ -24,48 +24,41 @@ namespace FamilyTree
         private Button btnAddP;
 
         //public static Manager manager = Manager.Instance;
-        public static int numMembers;
+        //public static int numMembers;
         private Button btnDone;
         List<Person> list = new List<Person>();
         public NewTreeForm()
         {
             InitializeComponent();
         }
-        public static void startNewTree()
+       
+
+        private void btnAddP_Click(object sender, EventArgs e)
         {
-            List<Person> list = new List<Person>();
-            Console.WriteLine("How many Originals would you like to add? (These are people will have null in the parent field)");
-            int num = int.Parse(Console.ReadLine());
-
-            for (int i = 1; i <= num; i++)
+            string name = textBoxNm.Text;
+            int id;
+            if (int.TryParse(textBoxID.Text, out id))
             {
-                Console.WriteLine($"Enter the name of person {i}: ");
-                string name = Console.ReadLine();
-                Console.WriteLine($"Enter the id of {name}: ");
-                int id = int.Parse(Console.ReadLine());
-
                 Person person = new Person(id, null, null);
                 person.name = name;
                 list.Add(person);
             }
-            Manager.Instance.addOriginals(list);
-            writeChanges();
+            else
+            {
+                MessageBox.Show("Invalid Input, please check your answers");
+            }
         }
 
-        public static void writeChanges()
+        private void btnDone_Click(object sender, EventArgs e)
         {
-            try
-            {
-                string updatedJson = JsonConvert.SerializeObject(Manager.Instance.getFamily(), Newtonsoft.Json.Formatting.Indented);
-                File.WriteAllText(filePath, updatedJson);
-                Manager.Instance.LoadData(filePath);
-            }catch(Exception ex)
-            {
-                log.Error("Something went wrong when trying to read the JSON file"); 
-                log.Error(ex.ToString());
-            }
-            
+            Manager.Instance.addOriginals(list);
+            Manager.Instance.writeChanges();
+            this.Close();
         }
+
+
+
+
 
         private void InitializeComponent()
         {
@@ -112,7 +105,7 @@ namespace FamilyTree
             // textBox4
             // 
             this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(73, 310);
+            this.textBox4.Location = new System.Drawing.Point(73, 307);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(310, 26);
@@ -122,7 +115,7 @@ namespace FamilyTree
             // 
             // textBoxID
             // 
-            this.textBoxID.Location = new System.Drawing.Point(413, 310);
+            this.textBoxID.Location = new System.Drawing.Point(413, 307);
             this.textBoxID.Multiline = true;
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Size = new System.Drawing.Size(174, 26);
@@ -164,27 +157,6 @@ namespace FamilyTree
 
         }
 
-        private void btnAddP_Click(object sender, EventArgs e)
-        {
-            string name = textBoxNm.Text;
-            int id;
-            if (int.TryParse(textBoxID.Text, out id))
-            {
-                Person person = new Person(id, null, null);
-                person.name = name;
-                list.Add(person);
-            }
-            else
-            {
-                MessageBox.Show("Invalid Input, please check your answers");
-            }
-        }
-
-        private void btnDone_Click(object sender, EventArgs e)
-        {
-            Manager.Instance.addOriginals(list);
-            writeChanges();
-            this.Close();
-        }
+  
     }
 }

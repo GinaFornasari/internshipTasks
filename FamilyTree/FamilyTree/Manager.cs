@@ -14,58 +14,60 @@ namespace FamilyTree
 {
     public class Manager
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(Form1));
-        public static List<Person> family; 
-
+        private static readonly ILog log = LogManager.GetLogger(typeof(Manager));
+        public static readonly string filePath = "C:\\Users\\ginaf\\source\\repos\\GinaFornasari\\internshipTasks\\FamilyTree\\FamilyTree\\Family.json";
+        private List<Person> family;
         private static Manager instance;
-        private static readonly object lockObject = new object();
-
-        public event Action<string> MessageUpdated;
-
         private Manager()
         {
             family = new List<Person>();
+            LoadData();
         }
         public static Manager Instance
         {
             get
             {
-                // Double-check locking for thread safety
                 if (instance == null)
                 {
-                    lock (lockObject)
-                    {
-                        if (instance == null)
-                        {
-                            instance = new Manager();
-                        }
-                    }
+                    instance = new Manager();
                 }
                 return instance;
             }
         }
-
+        public void AddMember(Person person)
+        {
+            family.Add(person);
+        }
         public List<Person> getFamily()
         {
             return family;
         }
-
-        public List<Person> LoadData(string filePath)
+        public void LoadData()
         {
             if (File.Exists(filePath))
             {
                 string jsonContent = File.ReadAllText(filePath);
-
                 family = JsonConvert.DeserializeObject<List<Person>>(jsonContent);
             }
             else
             {
                 log.Error("The specified JSON file does not exist.");
             }
-
-            return family; 
         }
-      
+        public void writeChanges()
+        {
+            try
+            {
+                string updatedJson = JsonConvert.SerializeObject(Manager.Instance.getFamily(), Newtonsoft.Json.Formatting.Indented);
+                File.WriteAllText(filePath, updatedJson);
+                Manager.Instance.LoadData();
+            }
+            catch (Exception ex)
+            {
+                log.Error("Something went wrong when trying to read the JSON file");
+                log.Error(ex.ToString());
+            }
+        }
         public void addOriginals(List<Person> list)
         {
             family.Clear();
@@ -73,24 +75,18 @@ namespace FamilyTree
             {
                 family.Add(person);
             }
-            //writeChanges();
-
         }
-
-        public void PrintFamilyTree()
+        public bool find(int id)
         {
-
-            
-            //Console.WriteLine($"{new string(' ', depth * 2)}{person}");
-            string str = ""; 
-            foreach (Person child in family)
+            foreach (Person person in family)
             {
-              str += child.name;
+                if (person.id.Equals(id))
+                {
+                    return true;
+                }
             }
-            MessageUpdated?.Invoke(str);
-
+            return false;
         }
-
         public Person GetPerson(int id)
         {
             foreach (Person child in family)
@@ -102,23 +98,34 @@ namespace FamilyTree
             }
             return null;
         }
-
+        public Person GetPersonByName(string name)
+        {
+            foreach (Person child in family)
+            {
+                if (child.name == name)
+                {
+                    return child;
+                }
+            }
+            return null;
+        }
+        public bool checkValid(string name, int id)
+        {
+            if (GetPerson(id).name.Equals(name))
+            {
+                return true; 
+            }
+            return false;
+        }
         public void addBioChild(int parent, int child)
         {
+            if(!find(parent) || !find(parent))
+            {
+                return; 
+            }
             Person Parent = GetPerson(parent);
             Person Child = GetPerson(child);
-            Parent.bioChildren.Add(Child);
-            //child is null referenced??
-            //Console.WriteLine($"{Parent.name} and {Child.name}");
+            Parent.bioChildren.Add(Child);   
         }
-
-        public void AddMember(Person person)
-        {
-            family.Add(person);
-
-        }
-
-
-
     }
 }
