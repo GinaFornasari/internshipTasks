@@ -1,0 +1,15 @@
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\bin\Debug\log4net.dll
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\bin\Debug\ScintillaNET.dll
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\bin\Debug\log4net.xml
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\bin\Debug\ScintillaNET.xml
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\obj\Debug\TextDisplay.csproj.AssemblyReference.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\obj\Debug\TextDisplay.Form1.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\obj\Debug\TextDisplay.Properties.Resources.resources
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\obj\Debug\TextDisplay.csproj.GenerateResource.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\obj\Debug\TextDisplay.csproj.CoreCompileInputs.cache
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\obj\Debug\TextDisplay.exe
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\obj\Debug\TextDisplay.pdb
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\bin\Debug\TextDisplay.exe.config
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\bin\Debug\TextDisplay.exe
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\bin\Debug\TextDisplay.pdb
+C:\Users\ginaf\source\repos\GinaFornasari\internshipTasks\TextDisplay\TextDisplay\obj\Debug\TextDisplay.csproj.CopyComplete
