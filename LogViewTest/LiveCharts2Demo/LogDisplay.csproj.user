@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+<<<<<<< HEAD
+    <Compile Update="Form1.cs">
+=======
+    <Compile Update="LiveChartsForm.cs">
+>>>>>>> a2f6b9111e5a949cbb3cdd7396f7946558a75965
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LogView\LogViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
