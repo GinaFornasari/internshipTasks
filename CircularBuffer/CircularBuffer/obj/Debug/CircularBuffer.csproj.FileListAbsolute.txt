@@ -1,0 +1,14 @@
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\bin\Debug\CircularBuffer.exe.config
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\bin\Debug\CircularBuffer.exe
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\bin\Debug\CircularBuffer.pdb
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\obj\Debug\CircularBuffer.csproj.AssemblyReference.cache
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\obj\Debug\CircularBuffer.frmBuffer.resources
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\obj\Debug\CircularBuffer.Properties.Resources.resources
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\obj\Debug\CircularBuffer.csproj.GenerateResource.cache
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\obj\Debug\CircularBuffer.csproj.CoreCompileInputs.cache
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\obj\Debug\CircularBuffer.exe
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\obj\Debug\CircularBuffer.pdb
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\bin\Debug\log4net.dll
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\bin\Debug\log4net.xml
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\obj\Debug\CircularBuffer.csproj.CopyComplete
+C:\Users\ginaf\Documents\GitHub\internshipTasks\CircularBuffer\CircularBuffer\bin\Debug\log4net.config
